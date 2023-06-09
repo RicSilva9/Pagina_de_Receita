@@ -3,11 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background: #bfbef3;
     font-family: 'Roboto', sans-serif;
-
   }
+
 body h1 { 
     margin: 0px 20px 20px 20px;
     padding: 20px;
@@ -15,6 +16,7 @@ body h1 {
     color: #1B1B1B;
     text-align: center;
 }
+
 body h2,h3 {
     margin: 20px;
     padding: 20px;
@@ -22,26 +24,34 @@ body h2,h3 {
     color: #1B1B1B;
     text-align: center;
 }
+
 .fundo {
-    margin: 60px 120px 120px 120px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 8%;
     padding: 26px;
     background-color: #EAEAEA;
     border-radius: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 5px;    
 }
+
 li,.paragrafo {
     color: #39393A;
     font-size: 16px;
 }
+
 footer {
     text-align: center;
     margin-top: 30px;
     margin: 20px;
 }
+
 figcaption footer {
     font-size: 12px;
     color: #8F8F8F;
 }
+
 .recipe-image {
     text-align: right;
     font-size: 12px;
